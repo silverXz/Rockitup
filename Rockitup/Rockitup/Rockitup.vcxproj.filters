@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Stuff">
+      <UniqueIdentifier>{108fe7ca-be78-470c-a1c9-d7686a5fd50d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader">
+      <UniqueIdentifier>{5d59b439-59cf-4aff-bba9-328dc9fcd4ae}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\SilverX%27s Space\VS2013 Projects\Rockitup\Rockitup\OglApp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SilverX%27s Space\VS2013 Projects\Rockitup\Rockitup\MyApp.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SilverX%27s Space\VS2013 Projects\Rockitup\Rockitup\Event.h">
+      <Filter>Stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SilverX%27s Space\VS2013 Projects\Rockitup\Rockitup\FPSController.h">
+      <Filter>Stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SilverX%27s Space\VS2013 Projects\Rockitup\Rockitup\GLShader.h">
+      <Filter>Stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SilverX%27s Space\VS2013 Projects\Rockitup\Rockitup\glutils.h">
+      <Filter>Stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SilverX%27s Space\VS2013 Projects\Rockitup\Rockitup\Quad.h">
+      <Filter>Stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SilverX%27s Space\VS2013 Projects\Rockitup\Rockitup\ShaderFileParser.h">
+      <Filter>Stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SilverX%27s Space\VS2013 Projects\Rockitup\Rockitup\ShaderLib.h">
+      <Filter>Stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SilverX%27s Space\VS2013 Projects\Rockitup\Rockitup\SilMesh.h">
+      <Filter>Stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SilverX%27s Space\VS2013 Projects\Rockitup\Rockitup\SiMath.h">
+      <Filter>Stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SilverX%27s Space\VS2013 Projects\Rockitup\Rockitup\Texture.h">
+      <Filter>Stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SilverX%27s Space\VS2013 Projects\Rockitup\Rockitup\Camera.h">
+      <Filter>Stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SilverX%27s Space\VS2013 Projects\Rockitup\Rockitup\Controller.h">
+      <Filter>Stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\SilverX%27s Space\VS2013 Projects\Rockitup\Rockitup\Moveable.h">
+      <Filter>Stuff</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\SilverX%27s Space\VS2013 Projects\Rockitup\Rockitup\OglApp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SilverX%27s Space\VS2013 Projects\Rockitup\Rockitup\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SilverX%27s Space\VS2013 Projects\Rockitup\Rockitup\FPSController.cpp">
+      <Filter>Stuff</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SilverX%27s Space\VS2013 Projects\Rockitup\Rockitup\GLShader.cpp">
+      <Filter>Stuff</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SilverX%27s Space\VS2013 Projects\Rockitup\Rockitup\glutils.cpp">
+      <Filter>Stuff</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SilverX%27s Space\VS2013 Projects\Rockitup\Rockitup\Quad.cpp">
+      <Filter>Stuff</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SilverX%27s Space\VS2013 Projects\Rockitup\Rockitup\ShaderFileParser.cpp">
+      <Filter>Stuff</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SilverX%27s Space\VS2013 Projects\Rockitup\Rockitup\ShaderLib.cpp">
+      <Filter>Stuff</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SilverX%27s Space\VS2013 Projects\Rockitup\Rockitup\SilMesh.cpp">
+      <Filter>Stuff</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SilverX%27s Space\VS2013 Projects\Rockitup\Rockitup\Texture.cpp">
+      <Filter>Stuff</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SilverX%27s Space\VS2013 Projects\Rockitup\Rockitup\Camera.cpp">
+      <Filter>Stuff</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\SilverX%27s Space\VS2013 Projects\Rockitup\Rockitup\MyApp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\SilverX%27s Space\VS2013 Projects\Rockitup\Rockitup\shader\AxisQuad.glsl">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="..\..\..\..\SilverX%27s Space\VS2013 Projects\Rockitup\Rockitup\shader\DefaultMaterialRender.glsl">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="..\..\..\..\SilverX%27s Space\VS2013 Projects\Rockitup\Rockitup\shader\DrawLine.glsl">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="..\..\..\..\SilverX%27s Space\VS2013 Projects\Rockitup\Rockitup\shader\MRT.glsl">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="..\..\..\..\SilverX%27s Space\VS2013 Projects\Rockitup\Rockitup\shader\quad.glsl">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="..\..\..\..\SilverX%27s Space\VS2013 Projects\Rockitup\Rockitup\shader\SSAOP1.glsl">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="..\..\..\..\SilverX%27s Space\VS2013 Projects\Rockitup\Rockitup\shader\SSAOP2.glsl">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="..\..\..\..\SilverX%27s Space\VS2013 Projects\Rockitup\Rockitup\shader\SSAOP3.glsl">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="..\..\..\..\SilverX%27s Space\VS2013 Projects\Rockitup\Rockitup\shader\SSAOP4.glsl">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="..\..\..\..\SilverX%27s Space\VS2013 Projects\Rockitup\Rockitup\shader\TexMesh.glsl">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="..\..\..\..\SilverX%27s Space\VS2013 Projects\Rockitup\Rockitup\shader\DrawAQuadTexture.glsl">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="..\..\..\..\SilverX%27s Space\VS2013 Projects\Rockitup\Rockitup\shader\ShadowMap_P2.glsl">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="..\..\..\..\SilverX%27s Space\VS2013 Projects\Rockitup\Rockitup\shader\Default.glsl">
+      <Filter>Shader</Filter>
+    </None>
+  </ItemGroup>
+</Project>

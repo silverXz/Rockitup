@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{8FC575DD-7846-4DFC-BED1-188A8B79FE14}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Rockitup</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <ExecutablePath>$(SolutionDir)Bin;$(ExecutablePath)</ExecutablePath>
+    <IncludePath>$(SolutionDir)Include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)Lib;$(LibraryPath)</LibraryPath>
+    <OutDir>$(SolutionDir)\Bin\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <ExecutablePath>$(SolutionDir)Bin;$(ExecutablePath)</ExecutablePath>
+    <IncludePath>$(SolutionDir)Include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)Lib;$(LibraryPath)</LibraryPath>
+    <OutDir>$(SolutionDir)\Bin\</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <PrecompiledHeaderFile>OglPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>$(IntDir)$(SolutionName).pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>glew32.lib;opengl32.lib;glu32.lib;assimp.lib;freeimage.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <PrecompiledHeaderFile>OglPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>$(IntDir)$(SolutionName).pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>glew32.lib;opengl32.lib;glu32.lib;assimp.lib;freeimage.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\SilverX%27s Space\VS2013 Projects\Rockitup\Rockitup\Camera.h" />
+    <ClInclude Include="..\..\..\..\SilverX%27s Space\VS2013 Projects\Rockitup\Rockitup\Controller.h" />
+    <ClInclude Include="..\..\..\..\SilverX%27s Space\VS2013 Projects\Rockitup\Rockitup\Event.h" />
+    <ClInclude Include="..\..\..\..\SilverX%27s Space\VS2013 Projects\Rockitup\Rockitup\FPSController.h" />
+    <ClInclude Include="..\..\..\..\SilverX%27s Space\VS2013 Projects\Rockitup\Rockitup\GLShader.h" />
+    <ClInclude Include="..\..\..\..\SilverX%27s Space\VS2013 Projects\Rockitup\Rockitup\glutils.h" />
+    <ClInclude Include="..\..\..\..\SilverX%27s Space\VS2013 Projects\Rockitup\Rockitup\Moveable.h" />
+    <ClInclude Include="..\..\..\..\SilverX%27s Space\VS2013 Projects\Rockitup\Rockitup\MyApp.h" />
+    <ClInclude Include="..\..\..\..\SilverX%27s Space\VS2013 Projects\Rockitup\Rockitup\OglApp.h" />
+    <ClInclude Include="..\..\..\..\SilverX%27s Space\VS2013 Projects\Rockitup\Rockitup\Quad.h" />
+    <ClInclude Include="..\..\..\..\SilverX%27s Space\VS2013 Projects\Rockitup\Rockitup\ShaderFileParser.h" />
+    <ClInclude Include="..\..\..\..\SilverX%27s Space\VS2013 Projects\Rockitup\Rockitup\ShaderLib.h" />
+    <ClInclude Include="..\..\..\..\SilverX%27s Space\VS2013 Projects\Rockitup\Rockitup\SilMesh.h" />
+    <ClInclude Include="..\..\..\..\SilverX%27s Space\VS2013 Projects\Rockitup\Rockitup\SiMath.h" />
+    <ClInclude Include="..\..\..\..\SilverX%27s Space\VS2013 Projects\Rockitup\Rockitup\Texture.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\SilverX%27s Space\VS2013 Projects\Rockitup\Rockitup\Camera.cpp" />
+    <ClCompile Include="..\..\..\..\SilverX%27s Space\VS2013 Projects\Rockitup\Rockitup\FPSController.cpp" />
+    <ClCompile Include="..\..\..\..\SilverX%27s Space\VS2013 Projects\Rockitup\Rockitup\GLShader.cpp" />
+    <ClCompile Include="..\..\..\..\SilverX%27s Space\VS2013 Projects\Rockitup\Rockitup\glutils.cpp" />
+    <ClCompile Include="..\..\..\..\SilverX%27s Space\VS2013 Projects\Rockitup\Rockitup\main.cpp" />
+    <ClCompile Include="..\..\..\..\SilverX%27s Space\VS2013 Projects\Rockitup\Rockitup\MyApp.cpp" />
+    <ClCompile Include="..\..\..\..\SilverX%27s Space\VS2013 Projects\Rockitup\Rockitup\OglApp.cpp" />
+    <ClCompile Include="..\..\..\..\SilverX%27s Space\VS2013 Projects\Rockitup\Rockitup\Quad.cpp" />
+    <ClCompile Include="..\..\..\..\SilverX%27s Space\VS2013 Projects\Rockitup\Rockitup\ShaderFileParser.cpp" />
+    <ClCompile Include="..\..\..\..\SilverX%27s Space\VS2013 Projects\Rockitup\Rockitup\ShaderLib.cpp" />
+    <ClCompile Include="..\..\..\..\SilverX%27s Space\VS2013 Projects\Rockitup\Rockitup\SilMesh.cpp" />
+    <ClCompile Include="..\..\..\..\SilverX%27s Space\VS2013 Projects\Rockitup\Rockitup\Texture.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\SilverX%27s Space\VS2013 Projects\Rockitup\Rockitup\shader\AxisQuad.glsl" />
+    <None Include="..\..\..\..\SilverX%27s Space\VS2013 Projects\Rockitup\Rockitup\shader\Default.glsl" />
+    <None Include="..\..\..\..\SilverX%27s Space\VS2013 Projects\Rockitup\Rockitup\shader\DefaultMaterialRender.glsl" />
+    <None Include="..\..\..\..\SilverX%27s Space\VS2013 Projects\Rockitup\Rockitup\shader\DrawAQuadTexture.glsl" />
+    <None Include="..\..\..\..\SilverX%27s Space\VS2013 Projects\Rockitup\Rockitup\shader\DrawLine.glsl" />
+    <None Include="..\..\..\..\SilverX%27s Space\VS2013 Projects\Rockitup\Rockitup\shader\MRT.glsl" />
+    <None Include="..\..\..\..\SilverX%27s Space\VS2013 Projects\Rockitup\Rockitup\shader\quad.glsl" />
+    <None Include="..\..\..\..\SilverX%27s Space\VS2013 Projects\Rockitup\Rockitup\shader\ShadowMap_P2.glsl" />
+    <None Include="..\..\..\..\SilverX%27s Space\VS2013 Projects\Rockitup\Rockitup\shader\SSAOP1.glsl" />
+    <None Include="..\..\..\..\SilverX%27s Space\VS2013 Projects\Rockitup\Rockitup\shader\SSAOP2.glsl" />
+    <None Include="..\..\..\..\SilverX%27s Space\VS2013 Projects\Rockitup\Rockitup\shader\SSAOP3.glsl" />
+    <None Include="..\..\..\..\SilverX%27s Space\VS2013 Projects\Rockitup\Rockitup\shader\SSAOP4.glsl" />
+    <None Include="..\..\..\..\SilverX%27s Space\VS2013 Projects\Rockitup\Rockitup\shader\TexMesh.glsl" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
